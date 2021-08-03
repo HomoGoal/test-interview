@@ -1,0 +1,49 @@
+.bestSeller{
+    display: flex;
+    flex-direction: column;
+}
+.bestSeller div{
+    width: 1300px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.bestSeller div div{
+    width: 635px;
+    height: 360px;
+    background: #F3F3F3;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.bestSeller1 img{
+    width: 100% ;
+    height: 100%;
+}
+.bestSeller2 img{
+    height:253px ;
+    width: 257px;
+    margin-bottom: 37px;
+}
+.bestSeller div div div{
+    width: 304px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 57px;
+}
+.bestSeller div div div h3{
+    margin:0;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.bestSeller div div div p{
+    margin:0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}

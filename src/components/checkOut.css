@@ -1,0 +1,119 @@
+.checkOut{
+    width: 413px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonCheckOut{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    background: #1F1F1F;
+    color:white;
+    padding:16px 124px 14px 124px;
+    border:none;
+    cursor: pointer;
+}
+.checkOutForm{
+    width: 100%;
+    height: auto;
+    background: #FAFAFA;
+    padding: 32px 32px 74px 32px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.checkOutFormItem1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #ACACAC;
+}
+.productPrice{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productPrice p{
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    pointer-events: none;
+}
+.productPrice h4{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: right;
+    pointer-events: none;
+}
+.productPrice h3{
+    font-family: Graphik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: right;
+    pointer-events: none;
+}
+.productCheckOut{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+.productCheckOutImg{
+    height: 120px;
+    width: 120px;
+    background: #FFFFFF;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.productCheckOutImg img{
+    height: 120px;
+    width: 120px;
+}
+.productCheckOutImgDetail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.productCheckOutImgDetail h4{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+    pointer-events: none;
+}
+.productCheckOutImgDetail h3{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    margin: 0;
+    margin: 4px 0;
+    pointer-events: none;
+}
+.productCheckOutImgDetail p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #BDAA66;
+    margin: 0;
+    pointer-events: none;
+}

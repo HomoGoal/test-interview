@@ -1,0 +1,33 @@
+.headerBagsDetail{
+    width: 1300px;
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 45px;
+}
+.p p{
+    margin: 0;
+    color: rgb(228, 228, 228);
+    display: inline-block;
+}
+.headerBagsDetail div{
+    position: relative;
+    height: 100%;
+    width: 554px;
+    background: #96B444;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.headerBagsDetail div p{
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.headerBagsDetail div svg{
+    position: absolute;
+    top:13px;
+    right:13px;
+    cursor:pointer;
+}

@@ -1,0 +1,57 @@
+.stayTune{
+    height:700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stayTune p{
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;
+    font-weight: 400;
+    color:#616161;
+    pointer-events: none;
+}
+.stayTune h1{
+    font-size: 48px;
+    margin: 0;
+    line-height: 60px;
+    font-weight: 700;
+    color:#1F1F1F;
+    margin-bottom: 20px;
+    pointer-events: none;
+}
+.diary{
+    display: flex;
+    margin-bottom: 20px;
+}
+.diary div:nth-child(2){
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.diary div{
+    max-width: 332px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.diary div img{
+    height:270px;
+    width: 332px;
+    cursor: pointer;
+}
+.diary div h3{
+    margin: 0;
+    text-align: left;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.diary div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    pointer-events: none;
+}

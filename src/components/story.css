@@ -1,0 +1,127 @@
+.story{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pStory{
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#616161;
+    margin-top: 120px;
+}
+.h1Story{
+    font-family: Bauer Bodoni Std 1;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#1F1F1F;
+}
+.whatWeDo{
+    height: 739px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F0F0F0;
+
+}
+.whatWeDo img {
+    width: 554px;
+    height: 449px;
+    object-fit: cover;
+}
+.whatWeDo div{
+    width: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 107px;
+}
+.whatWeDo div h1{
+    font-family: Bauer Bodoni Std 1;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#1F1F1F;
+    margin: 0;
+    margin-bottom: 54px;
+}
+.whatWeDo div p{
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#616161;
+    margin-bottom: 30px;
+}
+.whatWeDo div div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end !important;
+}
+.whatWeDo div div p{
+    width: 360px;
+}
+.ourStory{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+.ourStory div{
+    width: 521px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ourStory div h1{
+    font-family: Bauer Bodoni Std 1;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+        color:#1F1F1F;
+}
+.ourStory div p{
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#616161;
+}
+.ourStoryImg1{
+    width: 443px;
+    height: 576px;
+    object-fit: cover;
+}
+.ourStoryImg2{
+    position: absolute;
+    width: 329px;
+    height: 414px;
+    object-fit: cover;
+    transform: translate(65%,40%);
+}

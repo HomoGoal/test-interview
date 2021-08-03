@@ -1,0 +1,73 @@
+.kindOfCollection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:80px;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+}
+.CollectionImgGroup{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 90px;
+    transform: translateX(6.5%);
+}
+.CollectionImgGroup1{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 90px;
+    transform: translateX(-6.5%);
+}
+.CollectionImgGroup img:nth-child(1),.CollectionImgGroup1 img:nth-child(1){
+    margin-right: 111px;
+    object-fit: cover;
+}
+.smallImg{
+    width: 443px;
+    height: 433px;
+}
+.bigImg{
+    width: 554px;
+    height: 596px;
+}
+.collection2020Body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.collection2020Body img{
+    width: 554px;
+    height: 660px;
+    object-fit: cover;
+}
+.collection2020Body div{
+    width: 524px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.collection2020Body div h1{
+    font-family: Bauer Bodoni Std 1;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#1F1F1F;
+}
+.collection2020Body div p{
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#616161;
+}
+.nth1{
+    margin-right: 111px;
+}

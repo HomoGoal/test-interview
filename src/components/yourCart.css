@@ -1,0 +1,117 @@
+.yourCart{
+    width: 1300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 110px;
+}
+.yourCart1{
+    width: 850px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.yourCartGroup1{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+.yourCartGroupImg{
+    height:303px;
+    width: 303px;
+    background: #FAFAFA;
+}
+.yourCartGroupItem1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 526px;
+}
+
+.yourCartGroupImg img{
+    height: 100%;
+    width: 100%;
+}
+.pCart1{
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+}
+.p2Cart1{
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+margin-right: 25px;
+}
+.quantityCart{
+    display: flex;
+    align-items: center;
+    margin-bottom: 95px;
+}
+.yourCartCustomise{
+    display: flex;
+    align-items: center;
+}
+.yourCart2{
+    width: 410px;
+    height: auto;
+    background: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 135px;
+}
+.yourCart2 button{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+background: #1F1F1F;
+border: none;
+outline: none;
+padding:11px 58px 9px  57px;
+cursor: pointer;
+}
+.yourCart2 div{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+.yourCart2 div p{
+margin: 0;
+font-size: 24px;
+font-weight: 500;
+line-height: 27px;
+text-align: right;
+}
+.yourCart2 div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 115px;
+}
+.yourCart2 div div p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.yourCartCustomise p{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+}
+.yourCartCustomise svg:nth-child(2){
+    margin: 0 20px;
+}

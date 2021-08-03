@@ -1,0 +1,91 @@
+.mainNews{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutFall2020{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+.aboutFall2020 img{
+    width: 554px;
+    height: 402px;
+    object-fit: cover;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.aboutFall2020 div{
+    width: 443px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translateY(10%);
+    cursor: pointer;
+}
+.aboutFall2020 div h1{   
+    font-family: Bauer Bodoni Std 1;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.aboutFall2020 div p{
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#616161;
+}
+.pMainNews{
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#616161;
+}
+.h1MainNews{
+    font-family: Bauer Bodoni Std 1;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.mainNews button{
+    font-family: Graphik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #C6B67E;
+    color:white;
+    border: none;
+    padding:11px 36px 9px 36px;
+    cursor: pointer;
+    margin-bottom: 135px;
+    margin-top: 60px;
+}
+.mainNewsRow{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 80px;
+}

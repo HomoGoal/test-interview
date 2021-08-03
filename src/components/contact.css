@@ -1,0 +1,103 @@
+.contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.pContact{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.h1Contact{
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+text-align: center;
+}
+.contactGroup{
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.contactInfo{
+    width: 524px;
+    height: 572px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FAFAFA;
+    padding-top: 22px;
+}
+.contactInfo img{
+    width: 480px;
+    height: 315px;
+    margin-bottom: 44px;
+}
+.contactInfo p{
+    font-family: Graphik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.comment{
+    width: 414px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 141px;
+}
+.comment button{
+    background: #C6B67E;
+    font-family: Graphik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:white;
+    border:none;
+    padding: 11px 26px 9px 24px;
+}
+.comment label{
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.comment input{
+    width: 100%;
+    border:none;
+    background: none;
+    outline:none;
+    border-bottom: 1px solid #1F1F1F;
+    padding-bottom: 18px;
+    margin-bottom: 35px;
+    margin-top: 12px;
+}
+.comment textarea{
+    width: 414px;
+    min-height: 186px;
+    resize: none;
+    margin-top: 16px;
+    margin-bottom: 35px;
+    padding-top: 19px;
+    padding-left: 26px;
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    overflow-y: hidden;
+}

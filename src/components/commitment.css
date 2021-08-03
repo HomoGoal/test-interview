@@ -1,0 +1,80 @@
+.commitment{
+    width: 1300px;
+    height: auto;
+    margin-top: 140px;
+    margin-bottom: 165px;
+}
+.commitment p{
+    margin: 0;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.commitment h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 80px;
+}
+.commitmentGroup{
+    position: relative;
+    width: 100%;
+    height: 740px;
+    display: flex;
+    justify-content: flex-end;
+}
+.commitmentGroup img:nth-child(1){
+    position: absolute;
+    top:0;
+    left:222px;
+    height:653px;
+    width:413px;
+    object-fit: cover;
+}
+.commitmentGroup img:nth-child(2){
+    position: absolute;
+    top:231px;
+    left:0;
+    height:315px;
+    width:413px;
+}
+.commitmentGroup img:nth-child(3){
+    position: absolute;
+    left:494px;
+    bottom:0;
+    height:315px;
+    width:252px;
+}
+.commitmentGroup div{
+    width: 413px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.commitmentGroup div h1{
+    position: relative;
+    margin:0;
+    font-size: 31px;
+    line-height: 42px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.commitmentGroup div p{
+    margin:0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.commitmentGroup div h1::before{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    content:'';
+    height: 1px;
+    width: 81px;
+    background: #1F1F1F;
+    transform: translateX(-120%);
+}

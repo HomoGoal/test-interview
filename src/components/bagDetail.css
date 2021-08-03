@@ -1,0 +1,100 @@
+.bagDetail{
+    width: 1300px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.bagDetailPhoto{
+    width:524px;
+    display: flex;
+    flex-direction: column;
+}
+.bagDetailPrice{
+    width: 635px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bagDetailPrice h1{
+font-size: 31px;
+font-style: normal;
+font-weight: 700;
+line-height: 42px;
+text-align: center;
+}
+.bagDetailPrice p{
+color: #616161;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+}
+.priceDetail{
+    display: flex;
+}
+.priceDetail h3{
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+margin-right: 10px;
+}
+.priceDetail h3:nth-child(2){
+    text-decoration: line-through;
+    color:rgb(233, 232, 232);
+}
+.selectGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.colorGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.colorGroup p{
+    margin-right: 45px;
+}
+.colorGroup svg:nth-child(3){
+    margin:0 40px;
+}
+.buttonGroup{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonGroup div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 178px;
+    height: 50px;
+    cursor: pointer;
+}
+.buttonGroup div:nth-child(1){
+    border: 1px solid #BDAA66;
+    margin-right: 30px;
+}
+.buttonGroup div:nth-child(1) p{
+    color:#BDAA66;
+}
+.buttonGroup div:nth-child(2){
+    background: #C6B67E;
+}
+.buttonGroup div:nth-child(2) p{
+    color:white;
+}
+.quantityGroup{
+    display: flex;
+    align-items: center;
+    margin-top:46px;
+    margin-bottom: 80px;
+}
+.quantityGroup p{
+    margin:0;
+    margin-right: 42px;
+}

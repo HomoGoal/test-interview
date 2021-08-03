@@ -1,0 +1,28 @@
+.quantity{
+    display: flex;
+}
+.quantity div:nth-child(odd){
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C6B67E;
+    cursor: pointer;
+}
+.quantity div:nth-child(odd) p{
+    margin:0;
+    font-size: 40px;
+    transform: translateY(-5px);
+    color: white;
+}
+.quantity div{
+    height: 40px;
+    width: 86px;
+    background:white;
+    border: 1px solid #1F1F1F;
+    margin:0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

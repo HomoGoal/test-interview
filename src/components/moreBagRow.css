@@ -1,0 +1,47 @@
+.moreBagRow{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.moreBagRow div,.moreBagMiddle1,.moreBagMiddle2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.moreBagRow div div,.moreBagMiddle1 div,.moreBagMiddle2 div{
+    height:360px;
+    width: 302px;
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 0%, #F5F5F5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: -1;
+}
+.moreBagRow div:nth-child(odd) div img{
+    height: 264px;
+    width: 264px;
+    transform: translateX(-20px);
+    z-index: 10000;
+}
+.moreBagRow div:nth-child(even) div img{
+    height: 360px;
+    width: 300px;
+    transform: scale(1.4);
+}
+.h3{
+    margin: 0;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: left;
+    max-width: 302px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.p{
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}

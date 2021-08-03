@@ -1,0 +1,100 @@
+.myOrders{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pMyOrders{
+    font-family: Graphik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    margin-top: 80px;
+}
+.pMyOrders2{
+    font-family: Bauer Bodoni Std 1;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 85px;
+}
+table{
+    width: 1078px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+.titleTable{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #BDAA66;
+    padding-bottom: 26px;
+}
+.dataTable{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+}
+.titleTable th:nth-child(1),.dataTable td:nth-child(1){
+    width: 100px;
+    text-align: left;
+}
+.titleTable th:nth-child(2),.dataTable td:nth-child(2){
+    width: 100px;
+    text-align: left;
+}
+.titleTable th:nth-child(3),.dataTable td:nth-child(3){
+    width: 340px;
+    text-align: left;
+}
+.titleTable th:nth-child(4),.dataTable td:nth-child(4){
+    width: 70px;
+    text-align: left;
+}
+.titleTable th:nth-child(5),.dataTable td:nth-child(5){
+    width: 70px;
+    text-align: left;
+}
+.titleTable th{
+    font-family: Graphik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.dataTable td{
+    font-family: Graphik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#616161;
+}
+.dataTable td:last-child{
+    color:#96B444;
+}
+.delivered{
+    color:#2866C3 !important;
+}
+.myOrderSvg{
+    width: 1078px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 85px;
+    cursor: pointer;
+}

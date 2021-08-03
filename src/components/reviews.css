@@ -1,0 +1,59 @@
+.reviews{
+    width: 50%;
+    height: 100%;
+    background: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+.svgX{
+    position: absolute;
+    top:34px;
+    right: 34px;
+    cursor: pointer;
+}
+.svgY{
+    position: absolute;
+    top:15px;
+    right: 9px;
+    cursor: pointer;
+}
+.reviews div{
+    width: 580px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.h11{
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.reviews div div{
+    width: 580px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}.reviews div div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 14px;
+}
+.reviews div div div h4{
+    margin: 0;
+}
+.reviews div div div p{
+    margin: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}

@@ -1,0 +1,12 @@
+.detailPhotoItem{
+    width: 100%;
+    height: 600px;
+    background: #FAFAFA;
+    margin-bottom: 10px;
+}
+.detailPhotoItem img{
+    width: 500px;
+    height: 426px;
+    transform: translateY(25%);
+    cursor: pointer;
+}

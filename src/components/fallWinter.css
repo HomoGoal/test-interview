@@ -1,0 +1,68 @@
+.fallWinter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 103px;
+}
+.fallWinter1{
+    height: 400px;
+    width: 100%;
+    background-image: url("https://s3-alpha-sig.figma.com/img/a068/dc75/4747be2771c3b4388096b781b7cb833d?Expires=1628467200&Signature=A3vE3AcnbPDWCFfqi2il283uv30pxRostMHedA05~IKPmuU0-FzCwjWKHucLP3dYhchl746h2Qwdd03DqcexCEs8LdpHRxI9NI1uiHJmfuCazz8Vtpr32-7T~rNPWNQyz8~358coa~b-nQQwagKdrx7fcyBbDnoNHuDhjPyOsdrsxIA2SwFve2x-2ZHqrn-NL4VMPHUcdgFfGGMiS2jllV8OSyMIIApoMDwNDLUZOReuBk5f2dYXCGTQ7VcqP-RdLe~uuLWEAC4KWvOG6Kms9yhLC0qnjtyUOdyTS0W4rn7etUMixIdcXayDUeksoxQExyIuVL1Sj6aOMrFZFFuLvg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    background-size: center;
+    background-position: -30px -830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.fallWinter1 div{
+    width: 418px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translateX(80%);
+}
+.fallWinter1 div h1{
+    margin:0;					
+    font-size:48px;
+    font-weight: 700px;
+    line-height: 60px;
+text-align: left;
+    margin-bottom: 35px;
+}
+.fallWinter1 div button{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    border: 1px solid #1F1F1F;
+    color:#1F1F1F;
+    padding:5px 7px;
+    cursor: pointer;
+}
+.fallWinter2{
+    position: relative;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+.fallWinter2  svg:nth-child(1){
+    position: absolute;
+    top:50%;
+    left:10px;
+    transform: translateY(-160%);
+    cursor: pointer;
+}
+.fallWinter2 svg:nth-child(2){
+    position: absolute;
+    top:50%;
+    right:10px;
+    transform: translateY(-160%);
+    cursor: pointer;
+}
+
+

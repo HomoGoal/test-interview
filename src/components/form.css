@@ -1,0 +1,120 @@
+.form{
+    width: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.formSvg{
+    position: absolute;
+    top:25px;
+    right: 25px;
+    cursor: pointer;
+}
+.title{
+    margin: 0;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px;
+text-align: center;
+margin: 10px 0;
+pointer-events: none;
+}
+.formField{
+    width: 380px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.formField label{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+pointer-events: none;
+}
+.formField input{
+    width: 100%;
+    margin-top: 12px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #1F1F1F;
+    padding-bottom: 18px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.formField p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #616161;
+    text-align: left;
+    cursor: pointer;
+}
+.form button{
+    width: 230px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #C6B67E;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pFooter{
+    display: inline-block;
+    margin:0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(180, 180, 180);
+}
+.pFooter1{
+    display: inline-block;
+    margin:0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+.socialForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.socialForm svg:nth-child(2){
+    margin: 0 20px;
+}
+.pForgotCheck{
+    width: 300px;
+    margin: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+margin: 20px 0;
+pointer-events: none;
+}
+.svgCheck{
+    margin:65px 0;
+    cursor: pointer;
+}
+.pForm{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+pointer-events: none;
+margin: 0;
+}
