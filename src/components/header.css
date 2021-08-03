@@ -6,11 +6,11 @@
     align-items: center;
     justify-content: space-around;
     z-index: 10000;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .header.active{
     background: white;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .show{
     position: fixed;
