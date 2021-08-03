@@ -7,12 +7,12 @@ import Form from './form';
 import './header.css';
 import Reviews from './reviews';
 const Header=()=>{
-    const [header,setHeader]=useState(false);
+    const [header,setHeader]=useState(true);
     const [dropDown,setDropDown]=useState(false);
     const history=useHistory();
     const {setIsDesign,setKindCart,isLogIn,itemHeader,setItemHeader,detail,setDetail,form,setForm,setIsLogIn}=useContext(TheContext);
     const show=()=>{
-        if(pageYOffset<=2){
+        if(pageYOffset===0){
             setHeader(true);
         }
         else{
