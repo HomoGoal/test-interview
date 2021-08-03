@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/test-interview/static/css/main.fffd433d.chunk.css",
-    "main.js": "/test-interview/static/js/main.14109f2f.chunk.js",
-    "main.js.map": "/test-interview/static/js/main.14109f2f.chunk.js.map",
+    "main.css": "/test-interview/static/css/main.1d7de433.chunk.css",
+    "main.js": "/test-interview/static/js/main.efa5ddc7.chunk.js",
+    "main.js.map": "/test-interview/static/js/main.efa5ddc7.chunk.js.map",
     "runtime-main.js": "/test-interview/static/js/runtime-main.dce043be.js",
     "runtime-main.js.map": "/test-interview/static/js/runtime-main.dce043be.js.map",
     "static/js/2.2850797a.chunk.js": "/test-interview/static/js/2.2850797a.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.48edb95a.chunk.js": "/test-interview/static/js/3.48edb95a.chunk.js",
     "static/js/3.48edb95a.chunk.js.map": "/test-interview/static/js/3.48edb95a.chunk.js.map",
     "index.html": "/test-interview/index.html",
-    "static/css/main.fffd433d.chunk.css.map": "/test-interview/static/css/main.fffd433d.chunk.css.map",
+    "static/css/main.1d7de433.chunk.css.map": "/test-interview/static/css/main.1d7de433.chunk.css.map",
     "static/js/2.2850797a.chunk.js.LICENSE.txt": "/test-interview/static/js/2.2850797a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dce043be.js",
     "static/js/2.2850797a.chunk.js",
-    "static/css/main.fffd433d.chunk.css",
-    "static/js/main.14109f2f.chunk.js"
+    "static/css/main.1d7de433.chunk.css",
+    "static/js/main.efa5ddc7.chunk.js"
   ]
 }
